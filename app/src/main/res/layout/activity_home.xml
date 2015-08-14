@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="功能列表"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <irac.com.mobliesafe.ui.FocusTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="猪儿临死，你学会御剑飞行没有？？？妖神即将出世，你要努力啊！！！"
+        android:textSize="18sp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        />
+
+    <GridView
+        android:id="@+id/home_gv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"></GridView>
+</LinearLayout>
+
